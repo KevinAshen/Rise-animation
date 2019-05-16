@@ -15,6 +15,9 @@
 		047379EC228D8FE8007C546F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047379EB228D8FE8007C546F /* main.m */; };
 		047379F6228D8FE8007C546F /* Rise_animation_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047379F5228D8FE8007C546F /* Rise_animation_DemoTests.m */; };
 		04737A01228D8FE8007C546F /* Rise_animation_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04737A00228D8FE8007C546F /* Rise_animation_DemoUITests.m */; };
+		0499395E228D91BE009C8B42 /* BounceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499395D228D91BE009C8B42 /* BounceView.m */; };
+		04993960228D93EB009C8B42 /* bcl_btn_whole.png in Resources */ = {isa = PBXBuildFile; fileRef = 0499395F228D93EB009C8B42 /* bcl_btn_whole.png */; };
+		04993963228D9F33009C8B42 /* ChooseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993962228D9F33009C8B42 /* ChooseButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		047379FC228D8FE8007C546F /* Rise-animation-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rise-animation-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04737A00228D8FE8007C546F /* Rise_animation_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rise_animation_DemoUITests.m; sourceTree = "<group>"; };
 		04737A02228D8FE8007C546F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0499395C228D91BE009C8B42 /* BounceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BounceView.h; sourceTree = "<group>"; };
+		0499395D228D91BE009C8B42 /* BounceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BounceView.m; sourceTree = "<group>"; };
+		0499395F228D93EB009C8B42 /* bcl_btn_whole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcl_btn_whole.png; sourceTree = "<group>"; };
+		04993961228D9F33009C8B42 /* ChooseButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChooseButton.h; sourceTree = "<group>"; };
+		04993962228D9F33009C8B42 /* ChooseButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChooseButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		047379DB228D8FE6007C546F /* Rise-animation-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				0499395F228D93EB009C8B42 /* bcl_btn_whole.png */,
 				047379DC228D8FE6007C546F /* AppDelegate.h */,
 				047379DD228D8FE6007C546F /* AppDelegate.m */,
 				047379DF228D8FE6007C546F /* ViewController.h */,
@@ -110,6 +119,10 @@
 				047379E7228D8FE8007C546F /* LaunchScreen.storyboard */,
 				047379EA228D8FE8007C546F /* Info.plist */,
 				047379EB228D8FE8007C546F /* main.m */,
+				0499395C228D91BE009C8B42 /* BounceView.h */,
+				0499395D228D91BE009C8B42 /* BounceView.m */,
+				04993961228D9F33009C8B42 /* ChooseButton.h */,
+				04993962228D9F33009C8B42 /* ChooseButton.m */,
 			);
 			path = "Rise-animation-Demo";
 			sourceTree = "<group>";
@@ -237,6 +250,7 @@
 			files = (
 				047379E9228D8FE8007C546F /* LaunchScreen.storyboard in Resources */,
 				047379E6228D8FE8007C546F /* Assets.xcassets in Resources */,
+				04993960228D93EB009C8B42 /* bcl_btn_whole.png in Resources */,
 				047379E4228D8FE6007C546F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +278,8 @@
 			files = (
 				047379E1228D8FE6007C546F /* ViewController.m in Sources */,
 				047379EC228D8FE8007C546F /* main.m in Sources */,
+				04993963228D9F33009C8B42 /* ChooseButton.m in Sources */,
+				0499395E228D91BE009C8B42 /* BounceView.m in Sources */,
 				047379DE228D8FE6007C546F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
