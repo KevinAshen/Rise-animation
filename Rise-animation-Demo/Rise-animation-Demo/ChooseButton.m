@@ -17,7 +17,13 @@
     self = [super initWithFrame:frame];
     if (self) {
         self.titleLabel.font = titleFont;
-        self.buttonStyle = imageLeft;
+        self.buttonStyle = imageTop;
+        self.titleLabel.font = [UIFont systemFontOfSize:15.0];
+        [self setBackgroundColor:[UIColor clearColor]];
+        [self setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        self.titleLabel.font = [UIFont systemFontOfSize:15.0];
+        [self setTitle:@"蔬菜" forState:UIControlStateNormal];
+        [self setImage:[UIImage imageNamed:@"bcl_btn_whole.png"] forState:UIControlStateNormal];
         self.imgScale = 1;
         self.titleLabel.textAlignment = NSTextAlignmentCenter;
     }
@@ -73,7 +79,7 @@
     CGFloat titleH = [self heightForTitleString:[self titleForState:UIControlStateNormal] ContentRect:contentRect];
     CGFloat imageY = (CGRectGetHeight(contentRect)-imageWH-titleH)/2;
     CGFloat imageX = (CGRectGetWidth(contentRect) - imageWH)/2;
-    CGRect rect = CGRectMake(imageX, imageY, imageWH, imageWH);
+    CGRect rect = CGRectMake(imageX, imageY - 10, imageWH, imageWH);
     
     return rect;
 }
